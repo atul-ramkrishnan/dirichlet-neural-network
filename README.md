@@ -1,1 +1,4 @@
-# dirichlet-neural-network
+# Experiments on Dirichlet neural network
+This repo contains multiple experiments in using a Dirichlet distribution in a neural network based on the 2019 paper Neural Network Regression with Beta, Dirichlet, and Dirichlet-Multinomial Outputs by Peter Sadowski and Pierre Baldi and the 2020 paper Dirichlet Pruning for Neural Network Compression by Kamil Adamczewski and Mijung Park.
+A Dirichlet neural network provides interpretable predictions in the form of multidimensional distributions, rather than point estimates, from which one can obtain confidence intervals or quantify risk in decision making
+The repo also includes experiments in using a Generalized Dirichlet distribution and a Beta Liouville distribution instead of the Dirichlet distribution to overcome the limitations of a Dirichlet distribution.
